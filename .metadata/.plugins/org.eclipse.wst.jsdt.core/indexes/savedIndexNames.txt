@@ -1,0 +1,14 @@
+INDEX VERSION 1.4+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2270228479.index
+1731432907.index
+126666197.index
+1260678166.index
+1351253083.index
+3223882552.index
+4158629076.index
+3243932026.index
+1468429553.index
+3927585611.index
+46719759.index
+3388740710.index
+3463998492.index

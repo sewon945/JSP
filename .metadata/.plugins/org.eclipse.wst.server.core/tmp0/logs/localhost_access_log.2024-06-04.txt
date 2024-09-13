@@ -1,0 +1,17 @@
+127.0.0.1 - - [04/Jun/2024:09:39:10 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:09:39:10 +0900] "GET /mavensample/WEB-INF/classes/com/smhrd/controller/JoinController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:09:39:10 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:09:39:28 +0900] "GET /mavensample/JoinController HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024:12:16:02 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:16:03 +0900] "GET /mavensample/join.jsp HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:16:19 +0900] "GET /mavensample/WEB-INF/classes/com/smhrd/controller/JoinController.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:16:32 +0900] "GET /mavensample/JoinController. HTTP/1.1" 404 838
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:16:36 +0900] "GET /mavensample/join.jsp HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:17:23 +0900] "POST /mavensample/JoinController HTTP/1.1" 200 -
+127.0.0.1 - - [04/Jun/2024:12:35:44 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:35:45 +0900] "GET /mavensample/join.jsp HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:35:58 +0900] "POST /mavensample/JoinController HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:12:35:59 +0900] "GET /mavensample/index.jsp HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:15:49:08 +0900] "GET /Ex05Scope/Ex05SessionScope1.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:15:49:08 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:15:49:08 +0900] "GET /favicon.ico HTTP/1.1" 404 818

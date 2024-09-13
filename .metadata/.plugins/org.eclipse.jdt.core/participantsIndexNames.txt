@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3198021322.index
+\mavensample\target\generated-sources\annotations
+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3172840890.index
+\Ex03ReqRes\src\main\java
+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\147897979.index
+\Ex02JSP\src\main\java
+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\407296543.index
+\mavensample_frontcontroller\src\main\java
+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\134825365.index
+\Ex05Scope\src\main\java
+C:\Users\ggg\Desktop\Web(Server)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4178952994.index
+\Ex04CookieSession\src\main\java

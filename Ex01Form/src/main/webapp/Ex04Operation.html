@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="Ex04Operation">  <!-- 여기에 경로를 쓸 때는 / 빼고 상대경로로 써줘야함 -->
+		
+		<input type="number" name="num1">
+		
+		<select name="ope">  <!-- 연산기호가 하나 씩만 보이기위해 name은 한 번만 써도 된다 --> 
+			<option value="plus">+</option>  <!-- 태그 사이에 있는 연산기호가 눈에 보이는 값으로 나온다 -->
+			<option>-</option>
+			<option>*</option>
+			<option>/</option>
+		</select>
+
+		<input type="number" name="num2">
+		<input type="submit" value="SEND">
+		
+	</form>
+</body>
+</html>

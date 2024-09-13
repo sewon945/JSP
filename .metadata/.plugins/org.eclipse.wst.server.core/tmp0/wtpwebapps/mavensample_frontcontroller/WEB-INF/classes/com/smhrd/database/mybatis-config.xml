@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- DB 가져오기 -->
+  <properties resource="com/smhrd/database/db.properties"></properties>
+  
+  <!-- MavenMapper파일에서 MavenMember라고만 경로를 지정해줘도 알아서 경로 지정됨 -->
+  <typeAliases>
+  	<typeAlias type="com.smhrd.model.MavenMember" alias="MavenMember"/>
+  </typeAliases>
+  
+  <environments default="development">
+  <!-- DB 환경 적기 -->
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+      <!-- db.properties파일의 driver의 실제 value값 -->
+        <property name="driver" value="${driver}"/>
+        <property name="url" value="${url}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+      </dataSource>
+    </environment>
+  </environments>
+  <!-- 실제 매퍼 경로 가져오기(패키지~파일이름) -->
+  <mappers>
+    <mapper resource="com/smhrd/database/MavenMemberMapper.xml"/>
+  </mappers>
+</configuration>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace : mapper 이름, mapper들끼리 이름이 겹치면 안됨! -->
+<mapper namespace="MemberMapper">
+
+	<insert id="join" parameterType="MavenMember">
+							<!-- MavenMember 실제 필드 이름 써주기 -->
+		insert into mavenmember values (#{id}, #{pw}, #{nickname})
+		<!-- 내가 실행할 sql문 (실제 정의되어 있는 이름(id,pw..) 적기) -->
+		<!-- insert 결과값은 정수 -->
+	</insert>
+	
+	<select id="login" parameterType="MavenMember" resultType="MavenMember">
+		select * from mavenmember where id=#{id} and pw=#{pw}
+		<!-- 전체 다 보는데 조건으로 id가 같은지 그리고 pw도 같은지 확인 -->
+		<!-- select는 그냥 문자열 읽어오기라서 지정(resultType)해서 MavenMember로 결과값 반환해주기 -->
+	</select>
+</mapper>
